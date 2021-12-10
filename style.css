@@ -242,3 +242,8 @@ h2 {
 #bottom {
   bottom: 0;
 }
+
+.iconify-inline[data-icon='codicon:github'] {
+   color: #6e0e81;
+}
+
