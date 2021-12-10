@@ -1,0 +1,375 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .border-box {
+  margin-left: auto; 
+  margin-right: auto;
+  /* box-sizing: border-box; */
+  width: 800px;
+  /* margin: 0;  */
+  /* padding: 0; */
+}
+
+body { 
+  /* width: 800px; */
+  /* margin-left: auto;
+  margin-right: auto;  */
+
+
+  /* padding: 5px; */
+ /* display: flex;  */
+  /* flex-direction: column;  */
+  /* justify-content: space-around;  */
+ /* padding: 20px 0px 0px 0px; */
+ /* margin: 0 auto;  */
+
+ /* margin-left: auto; */
+ /* /* margin-right: auto; */
+ font-family: "Roboto mono", monospace;
+}
+
+ /* } */
+ /* flex-grow: 1; */
+ /* width: 700px;
+ } 
+
+ 
+ 
+
+ .other-resume {
+   font-family: "Noto Sans", sans-serif;
+   text-align: center;
+   margin-top: -20px;
+ }
+ 
+ .about_me {
+   text-align: justify;
+   float: right;
+   margin-left: 230px;
+   margin-top: -110px;
+ }
+ 
+ .experience {
+   float: left;
+   margin-top: -60px;
+ }
+
+ /* body {
+   background: #f5f7f8;
+   font-family: 'Roboto', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   padding: 20px 0;
+ }
+  */
+ 
+
+  
+  .nav-item {
+    list-style-type:none;
+    display: inline-block;
+   }
+
+   a {
+    text-decoration: none;
+  }
+  
+
+  /* .navbar ul li a {
+    color: solid black;
+    text-decoration: none;
+    padding: 12px;
+  } */
+
+ /* underline */
+ .section .content .title .title_inner {
+   margin-top: 50px;
+   display: inline-block;
+   line-height: 18px;
+   font-size: 13px;
+    color: #141414;
+   text-transform: uppercase;
+   letter-spacing: 0.04em;
+   transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -webkit-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s; 
+   box-shadow: inset 0 -6px 0px #ede574;
+   -moz-box-shadow: inset 0 -6px 0px #ede574;
+   -webkit-box-shadow: inset 0 -6px 0px #ede574;
+   -khtml-box-shadow: inset 0 -6px 0px #ede574;
+ }
+
+ 
+
+ .band {
+   width: 90%;
+   max-width: 1240px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   grid-gap: 20px;
+   padding-top: 70px;
+ }
+
+ .card {
+   background: white;
+   text-decoration: none;
+   color: #444;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+ }
+
+  .card .thumb {
+   padding-bottom: 65%;
+   background-size: contain;
+   background-repeat: no-repeat; 
+   background-position: center top;
+ }
+
+ .card article {
+   padding: 10px;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+  
+ .card p { 
+   flex: 1; /* make p grow to fill available space*/
+   line-height: 1.4;
+ }
+
+
+ .card span {
+   font-size: 16px;
+   font-weight: bold;
+   color: #6e0e81;
+   font-family: "Roboto mono", monospace;
+   text-transform: uppercase;
+   letter-spacing: .05em;
+   margin: 2em 0 0 0;
+ }
+
+
+ .card:hover {
+   transition: all .1s ease-in;
+   top: -2px;
+   box-shadow: 0 4px 5px rgba(214, 76, 248, 0.294);
+ }
+
+ @media only screen and (min-width: 500px) {
+   .band {
+     grid-template-columns: 1fr 1fr;
+   } 
+   body {
+       padding: 25px;
+   }
+   /* border theme  */
+   #top, 
+   #bottom,
+   #left,
+   #right {
+     background: #6e0e81;
+     position: fixed;
+   } 
+ }
+
+ @media only screen and (min-width: 850px) {
+   .band {
+     grid-template-columns: 1fr 1fr 1fr;
+   }
+ }
+
+ .icon {
+   padding: 0.6rem 0.6rem;
+   background: #6e0e81;
+   transition: color 140ms ease;
+   margin: 0 0.4rem;  
+}
+
+ /* .flex {
+   display: flex;
+   margin: 0; 
+   margin-bottom: 1rem;
+   min-width: 0;
+   flex-direction: column; 
+   flex-flow: wrap;
+   justify-content: center;
+
+ }   */
+/*   
+  .flex div:nth-of-type(1){
+   flex: 1.5;
+   flex-flow: wrap;
+   background-size: cover;
+   background-position: center;
+ }
+
+ .flex div:last-child {
+   flex-direction: row;
+   margin: 2rem;
+   flex: 2;
+ } */
+
+ /* .flex p {
+   font-size: 1rem;
+   line-height: 1.4;
+   font-weight: 400;
+ } */
+
+ /* .ft-main {
+   padding: 1.25rem 1.875rem;
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 0;
+ } */
+
+ /* .project-text {
+   margin-bottom: 5em;
+ }
+
+ .port-box {
+   padding-right: 2em;
+   padding-bottom: 4em;
+ } */
+
+ h1 {
+   text-align: left;
+   font-family: "Roboto mono", monospace;
+   padding-top: 60px;
+   /* padding-bottom: 40px; */
+ }
+ 
+ h2 {
+   text-decoration: none;
+ }
+ 
+ .image {
+   display: block;
+   left: 0;
+   top: 0;
+   margin-top: 10px;
+   float: left;
+   width: 80px;
+   height: 80px;
+ }
+
+ .container {
+   display: flex; 
+   margin-top: 50px;
+   /* display: inline-block; */
+ }
+
+ .my_bio {
+   padding-left: 1em;
+   text-align: justify;
+ }
+ 
+ .pic {
+   border-radius: 10px;
+ }
+
+ .navbar ul li {
+   display: inline-block; /* Arrange list items in horizontal line */
+   list-style-type: none; /* We don't want bullets on our items */
+   margin: 0;
+   padding: 20px ; /* Sets height of nav bar */
+ }
+ 
+ .navbar ul li a {
+   color: solid black;
+   text-decoration: none;
+   padding: 12px;
+ }
+ 
+ /* border theme */
+ /* #top,
+ #bottom,
+ #left,
+ #right {
+   background: #6e0e81;
+   position: fixed;
+ } */
+ 
+#left,
+ #right {
+   top: 0;
+   bottom: 0;
+   width: 15px;
+ }
+ #left {
+   left: 0;
+ }
+ #right {
+   right: 0;
+ }
+ 
+ #top,
+ #bottom {
+   left: 0;
+   right: 0;
+   height: 15px;
+ }
+ #top {
+   top: 0;
+ }
+ #bottom {
+   bottom: 0;
+ }  
+/* 
+ footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   bottom:0;
+ }
+
+ .footer-item {
+   padding: 1.25rem 1.875rem;
+   display: flex;
+   flex-wrap: wrap;
+   display: inline-block; 
+   list-style-type: none;  
+   margin-bottom: 0px;
+ } */
+
+
+ /* .twitter-icon,
+ .linkedin-icon,
+ .gmail-icon,
+ .github-icon,
+ .insta-icon {
+   width: 30px;
+ }
+  */
+ /* h3 {
+   margin-top: -50px;
+   font-size: 1.5rem;
+   font-weight: 400;
+   text-align: left;
+ }
+
+ .footer-text {
+   text-align: center;
+ } */
+
+
+
+
