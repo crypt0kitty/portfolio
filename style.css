@@ -63,6 +63,16 @@ a {
   padding-top: 70px;
 }
 
+.band_bio {
+  width: 60%;
+  height: 40%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding-top: 70px;
+}
+
 .card {
   background: white;
   text-decoration: none;
@@ -71,6 +81,19 @@ a {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+}
+
+.card_bio {
+  background: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_bio .thumb {
+  padding-bottom: 65%;
+  background-size: cover;
+  background-position: center top;
 }
 
 .card .thumb {
@@ -118,6 +141,22 @@ a {
   }
 }
 
+@media only screen and (min-width: 500px) {
+  .band_bio {
+    grid-template-columns: 1fr;
+    width: 80%;
+    height: 40%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .band_bio {
+    grid-template-columns: 1fr;
+    width: 60%;
+    height: 40%;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
   .band {
     grid-template-columns: 1fr 1fr 1fr;
@@ -139,9 +178,7 @@ h1 {
 }
 
 h2 {
-  text-decoration: none;
-  padding-top: 60px;
-
+  font-family: "Roboto mono", monospace;
 }
 
 .image {
