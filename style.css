@@ -64,12 +64,13 @@ a {
 }
 
 .band_bio {
-  width: 60%;
-  height: 40%;
+  width: 90%;
+  max-width: 1240px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
+  grid-gap: 20px;
   padding-top: 70px;
 }
 
@@ -144,8 +145,6 @@ a {
 @media only screen and (min-width: 500px) {
   .band_bio {
     grid-template-columns: 1fr;
-    width: 80%;
-    height: 40%;
   }
 }
 
@@ -153,7 +152,7 @@ a {
   .band_bio {
     grid-template-columns: 1fr;
     width: 60%;
-    height: 40%;
+
   }
 }
 
