@@ -104,6 +104,12 @@ a {
   background-position: center top;
 }
 
+iframe {
+  background-size: cover;
+  border: none;
+  height: 170px;
+}
+
 .card article {
   padding: 10px;
   flex: 1;
@@ -245,5 +251,11 @@ h2 {
 
 .iconify-inline[data-icon='codicon:github'] {
    color: #6e0e81;
+}
+
+.footer {
+  flex-shrink: 0;
+  padding-top: 50px;
+  text-align: center;
 }
 
