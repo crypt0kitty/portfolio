@@ -249,7 +249,18 @@ h2 {
 
 .footer {
   flex-shrink: 0;
-  padding-top: 50px;
+  padding-top: 60px;
   text-align: center;
 }
+
+#iconify-inline-linkedin {
+  padding-right: 60px;
+}
+
+#iconify-inline-twitter {
+  padding-left: 60px;
+}
+
+
+
 
