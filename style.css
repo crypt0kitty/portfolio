@@ -14,6 +14,10 @@
  *= require_self
  */
 
+article {
+  padding-top: 20px;
+}
+
 .border-box {
   margin-left: auto;
   margin-right: auto;
@@ -50,6 +54,11 @@ a {
   -moz-box-shadow: inset 0 -6px 0px #ede574;
   -webkit-box-shadow: inset 0 -6px 0px #ede574;
   -khtml-box-shadow: inset 0 -6px 0px #ede574;
+}
+
+.bio-text {
+  color: #6e0e81;
+  font-weight: 600;
 }
 
 .band {
