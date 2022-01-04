@@ -120,6 +120,12 @@ a {
   background-position: center top;
 }
 
+.bio-pic {
+  padding-bottom: 35%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .card .thumb-1 {
   padding-bottom: 62%;
   background-size: contain;
@@ -134,6 +140,14 @@ a {
   background-repeat: no-repeat;
   background-position: center top;
   border:1px solid rgb(4, 136, 136);
+}
+
+.card .thumb-4 {
+  padding-bottom: 62%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  border:1px solid rgb(98, 7, 141);
 }
 
 .card .thumb-2 {
