@@ -106,11 +106,42 @@ a {
   background-position: center top;
 }
 
+
+.card_bio .thumb-1 {
+  padding-bottom: 65%;
+  background-size: cover;
+  background-position: center top;
+}
+
 .card .thumb {
   padding-bottom: 65%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
+}
+
+.card .thumb-1 {
+  padding-bottom: 62%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  border:1px solid rgb(29, 2, 151);
+}
+
+.card .thumb-3 {
+  padding-bottom: 62%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  border:1px solid rgb(4, 136, 136);
+}
+
+.card .thumb-2 {
+  padding-bottom: 63%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: whitesmoke;
 }
 
 .card article {
