@@ -158,6 +158,14 @@ a {
   background-color: whitesmoke;
 }
 
+.card .thumb-5 {
+  padding-bottom: 63%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: whitesmoke;
+}
+
 .card article {
   padding: 10px;
   flex: 1;
