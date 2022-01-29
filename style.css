@@ -70,45 +70,45 @@ a {
 
 .ttt::after {
   content : "\0020";
-  animation: pulse 1s infinite;
+  animation: pulse 1s step-end 8;
   color: transparent;
-  border-right: 3px solid black;
+  border-right: thick solid transparent;
   margin-left: 4px;
 }
 
 #hello {
   color:rgb(116, 42, 190);
-  font-size:40px;
+  font-size:35px;
   font-weight:lighter;
 }
 
 #hola {
   color:#941ae0;
-  font-size:40px;
+  font-size:35px;
   font-weight:lighter;
 }
 
 #privet {
   color:#a626f5;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: lighter;
 }
 
 #konnichiwa {
   color:#F0009C;
-  font-size:40px;
+  font-size:35px;
   font-weight:lighter;
 }
 
 @keyframes pulse {
   0% {
-     border-right: 2.5px solid  rebeccapurple;
+     border-right:thick solid #f5e72d;
   }
   30% {
-     border-right: 2.5px solid  transparent;
+     border-right:thick transparent;
   }
   80% {
-     border-right: 2.5px solid  rebeccapurple;
+     border-right:thick solid #f5e72d;
   }
 }
 
@@ -284,7 +284,7 @@ a {
     width: 100%;
 
   }
-  
+
   footer {
     padding-top: 120px;
   }
