@@ -56,6 +56,62 @@ a {
   -khtml-box-shadow: inset 0 -6px 0px #ede574;
 }
 
+#holder {
+  width: 100%;
+}
+
+.tt {
+   display: none;
+}
+
+.red {
+  color: red;
+}
+
+.ttt::after {
+  content : "\0020";
+  animation: pulse 1s infinite;
+  color: transparent;
+  border-right: 3px solid black;
+  margin-left: 4px;
+}
+
+#hello {
+  color:rgb(116, 42, 190);
+  font-size:40px;
+  font-weight:lighter;
+}
+
+#hola {
+  color:#941ae0;
+  font-size:40px;
+  font-weight:lighter;
+}
+
+#privet {
+  color:#a626f5;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#konnichiwa {
+  color:#F0009C;
+  font-size:40px;
+  font-weight:lighter;
+}
+
+@keyframes pulse {
+  0% {
+     border-right: 2.5px solid  rebeccapurple;
+  }
+  30% {
+     border-right: 2.5px solid  transparent;
+  }
+  80% {
+     border-right: 2.5px solid  rebeccapurple;
+  }
+}
+
 .bio-text {
   color: #6e0e81;
   font-weight: 600;
