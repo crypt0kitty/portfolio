@@ -69,11 +69,22 @@ a {
 }
 
 .ttt::after {
-  content : "\0020";
-  animation: pulse 1s step-end 8;
+  content: "\0020";
+  animation:pulse 2s 6;
   color: transparent;
   border-right: thick solid transparent;
+  animation-delay:1.5s;
   margin-left: 4px;
+  transform: scale(1);
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pulse {
+  0% {transform:scale(0.95);border-right:thick solid #f5e72d;}
+  54% {border-right:transparent;}
+  74% {transform:scale(1);border-right:thick solid #f5e72d;}
+  80% {border-right:transparent;}
+  90% {transform: scale(0.95);border-right:thick solid #f5e72d;}
 }
 
 #hello {
@@ -90,26 +101,14 @@ a {
 
 #privet {
   color:#a626f5;
-  font-size: 35px;
-  font-weight: lighter;
+  font-size:35px;
+  font-weight:lighter;
 }
 
 #konnichiwa {
   color:#F0009C;
   font-size:35px;
   font-weight:lighter;
-}
-
-@keyframes pulse {
-  0% {
-     border-right:thick solid #f5e72d;
-  }
-  30% {
-     border-right:thick transparent;
-  }
-  80% {
-     border-right:thick solid #f5e72d;
-  }
 }
 
 .bio-text {
