@@ -285,7 +285,7 @@ a {
 
 @media only screen and (max-width: 500px) {
   .band_bio {
-    padding-top: 40px;
+    padding-top: 25px;
   }
 
   .section .content .title .title_inner {
@@ -293,11 +293,12 @@ a {
   }
 
   #hello, #hola,  #privet, #konnichiwa {
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 500;
   }
 
   .band {
-    padding-top: 60px;
+    padding-top: 65px;
     width: 100%;
   }
 
