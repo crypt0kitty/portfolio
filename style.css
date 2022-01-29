@@ -265,6 +265,7 @@ a {
   .band_bio {
     grid-template-columns: 1fr;
   }
+
   .footer {
     padding-top: 120px;
   }
@@ -283,7 +284,8 @@ a {
     width: 100%;
 
   }
-  .footer {
+  
+  footer {
     padding-top: 120px;
   }
 }
