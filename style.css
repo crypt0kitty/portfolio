@@ -38,7 +38,7 @@ a {
 }
 
 /* underline */
-.section .content .title .title_inner {
+ .section .content .title .title_inner {
   display: inline-block;
   line-height: 18px;
   font-size: 13px;
@@ -53,7 +53,7 @@ a {
   -moz-box-shadow: inset 0 -6px 0px #ede574;
   -webkit-box-shadow: inset 0 -6px 0px #ede574;
   -khtml-box-shadow: inset 0 -6px 0px #ede574;
-}
+} 
 
 #holder {
   width: 100%;
@@ -61,10 +61,6 @@ a {
 
 .tt {
   display: none;
-}
-
-.red {
-  color: red;
 }
 
 .ttt::after {
@@ -130,6 +126,7 @@ a {
 
 .bio-text2 {
   text-align: left;
+  letter-spacing: -0.02;
 }
 
 .band {
@@ -276,6 +273,30 @@ a {
   box-shadow: 0 4px 5px rgba(214, 76, 248, 0.294);
 }
 
+/* 
+HIGHLIGHT LINK EFFECT
+*/
+
+.highlight {
+  transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+}
+
+.bio:any-link {
+  color: blue;
+}
+
+.highlight:hover {
+  background-image: linear-gradient(to right, #6E0E81 0%, #bd4ad4 100%);
+  color: white;
+}
+
+/* 
+MEDIA QUERIES 
+*/
+
 @media only screen and (min-width: 1000px) {
   .card_bio {
     grid-template-columns: 1fr;
@@ -317,11 +338,6 @@ h2 {
   float: left;
   width: 80px;
   height: 80px;
-}
-
-.my_bio {
-  padding-left: 1em;
-  text-align: justify;
 }
 
 p {
@@ -487,7 +503,7 @@ p {
   body {
     padding: 20px;
   }
-  
+
   .band {
     grid-template-columns: 1fr 1fr 1fr;
   }
