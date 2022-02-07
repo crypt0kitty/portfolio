@@ -554,3 +554,38 @@ p {
     font-size: 16.2px;
   }
 }
+
+@media only screen and (min-width: 540px) {
+  .card .app-text {
+    flex: 1;
+    line-height: 1.4em;
+  }
+
+  .app-text {
+    letter-spacing: -1.6px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card .app-text {
+    flex: 1;
+    line-height: 1.4em;
+  }
+
+  .app-text {
+    letter-spacing: -1.0px;
+  }
+}
+
+@media only screen and (min-width: 844px) {
+  .card .app-text {
+    flex: 1;
+    line-height: 1.4em;
+  }
+
+  .app-text {
+    letter-spacing: -1.6px;
+  }
+}
+ 
+ 
