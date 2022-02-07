@@ -494,7 +494,9 @@ p {
   }
 
   .app-text {
+    word-spacing: -0.3rem;
     letter-spacing:-1px;
+    line-height: 1.4em;
   }
 
   .band {
@@ -526,6 +528,15 @@ p {
 @media only screen and (min-width: 1000px) {
   body {
     padding: 20px;
+  }
+
+  .card .app-text {
+    flex: 1;
+    line-height: 1.5em;
+  }
+
+  .app-text {
+    letter-spacing: -1.5px;
   }
 
   .band {
