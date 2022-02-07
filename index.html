@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio</title>
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- end -->
+
   <link type="text/css" href="./style.css" rel="stylesheet" />
   <link href="https://bit.ly/3rVAh0c" rel="stylesheet" />
   <script src="https://bit.ly/31Sp85f"></script>
@@ -13,6 +21,7 @@
   <script src="./index.js"></script>
   <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 </head>
+
 <body>
   <nav class="navbar">
     <div id="left"></div>
@@ -33,10 +42,10 @@
         <div class="title">
           <span class="bio-text">
             <div id="holder" class="text tt-holder">
-              <p class="tt"><i>     </i>    <code id="hello">Hello...</code></p>
-              <p class="tt"><i>     </i>   <code id="hola">Hola...</code></p>
-              <p class="tt"><i>     </i>   <code id="bonjour">Bonjour...</code></p>
-              <p class="tt"><i>     </i>   <code id="konnichiwa">Kon'nichiwa...</code></p>
+              <p class="tt"><i> </i> <code id="hello">Hello...</code></p>
+              <p class="tt"><i> </i> <code id="hola">Hola...</code></p>
+              <p class="tt"><i> </i> <code id="bonjour">Bonjour...</code></p>
+              <p class="tt"><i> </i> <code id="konnichiwa">Kon'nichiwa...</code></p>
               <h1 class="ttt"></h1>
             </div>
           </span>
@@ -47,8 +56,13 @@
               </div>
               <article>
                 <p class="bio-text-p"><span class="bio-text">Name: </span>Sandy Vasquez</p>
-                <p class="bio"><span class="bio-text">Bio: </span>I am a customer-focused IT professional with a degree in <a href="https://bit.ly/3sm3Tm7" target="_blank" class="bio"><span class="highlight">Information Systems</a>.</span> And a recent <a href="https://bit.ly/3rwxyKg" target="_blank" class="bio"><span class="highlight">coding bootcamp graduate</a>. My previous background and my current experience give me the range to bridge the gap between code and IT infrastructure.</p><br>
-                <p class="bio-text2"><span class="bio-text">Interests: </span>Philosophy, cryptocurrency, cybersecurity.</p>
+                <p class="bio"><span class="bio-text">Bio: </span>I am a customer-focused IT professional with a degree
+                  in <a href="https://bit.ly/3sm3Tm7" target="_blank" class="bio"><span class="highlight">Information
+                      Systems</a>.</span> And a recent <a href="https://bit.ly/3rwxyKg" target="_blank"
+                    class="bio"><span class="highlight">coding bootcamp graduate</a>. My previous background and my
+                  current experience give me the range to bridge the gap between code and IT infrastructure.</p><br>
+                <p class="bio-text2"><span class="bio-text">Interests: </span>Philosophy, cryptocurrency, cybersecurity.
+                </p>
               </article>
             </a>
           </div>
@@ -61,46 +75,46 @@
       </div>
     </div>
   </div>
-</div>
-<script>
-  const vis = (function () {
-    let stateKey,
-      eventKey,
-      keys = {
-        hidden: "visibilitychange",
-        webkitHidden: "webkitvisibilitychange",
-        mozHidden: "mozvisibilitychange",
-        msHidden: "msvisibilitychange"
-      };
-    for (stateKey in keys) {
-      if (stateKey in document) {
-        eventKey = keys[stateKey];
-        break;
+  </div>
+  <script>
+    const vis = (function() {
+      let stateKey,
+        eventKey,
+        keys = {
+          hidden: "visibilitychange",
+          webkitHidden: "webkitvisibilitychange",
+          mozHidden: "mozvisibilitychange",
+          msHidden: "msvisibilitychange"
+        };
+      for (stateKey in keys) {
+        if (stateKey in document) {
+          eventKey = keys[stateKey];
+          break;
+        }
       }
-    }
-    return function (c) {
-      if (c) document.addEventListener(eventKey, c);
-      return !document[stateKey];
-    }
-  })();
-  $(document).ready(function () {
-    // main visibility API function
-    let animatetext = function () {
-      let $elements = $(".tt-holder .tt");
-      $(".ttt").tickerText($elements, 8, 3, 30, 1, 0.5, 2, false, "timerpause", "timerstop");
-    }
-    $(animatetext);
-  });
-</script>
-<footer class="footer">
-  <p class="p-footer">
-    <a href="https://github.com/spv-hub/solar-system"><span class="iconify-inline" data-icon="logos:linkedin-icon"
-      id="iconify-inline-linkedin"></span></a>
-    <a href="https://github.com/spv-hub/solar-system"><span class="iconify-inline" 
-       data-icon="logos:google-gmail" id="iconify-inline-gmail"></span></a>
-    <a href="https://github.com/spv-hub/solar-system"><span class="iconify-inline" data-icon="logos:twitter"
-      id="iconify-inline-twitter"></span></a>
-  </p>
-  © 2022 Sandy Vasquez - powered by Heroku
-</footer>
-<html>
+      return function(c) {
+        if (c) document.addEventListener(eventKey, c);
+        return !document[stateKey];
+      }
+    })();
+    $(document).ready(function() {
+      // main visibility API function
+      let animatetext = function() {
+        let $elements = $(".tt-holder .tt");
+        $(".ttt").tickerText($elements, 8, 3, 30, 1, 0.5, 2, false, "timerpause", "timerstop");
+      }
+      $(animatetext);
+    });
+  </script>
+  <footer class="footer">
+    <p class="p-footer">
+      <a href="https://github.com/spv-hub/solar-system"><span class="iconify-inline" data-icon="logos:linkedin-icon"
+          id="iconify-inline-linkedin"></span></a>
+      <a href="https://github.com/spv-hub/solar-system"><span class="iconify-inline" data-icon="logos:google-gmail"
+          id="iconify-inline-gmail"></span></a>
+      <a href="https://github.com/spv-hub/solar-system"><span class="iconify-inline" data-icon="logos:twitter"
+          id="iconify-inline-twitter"></span></a>
+    </p>
+    © 2022 Sandy Vasquez - powered by Heroku
+  </footer>
+  <html>
