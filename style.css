@@ -532,11 +532,11 @@ p {
 
   .card .app-text {
     flex: 1;
-    line-height: 1.5em;
+    line-height: 1.4em;
   }
 
   .app-text {
-    letter-spacing: -1.5px;
+    letter-spacing: -1.4px;
   }
 
   .band {
