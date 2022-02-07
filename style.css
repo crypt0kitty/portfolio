@@ -49,7 +49,6 @@ a {
 
 .list-text {
   text-align: left;
-  letter-spacing: -1px;
   line-height: 1.5em;
 }
 
@@ -137,12 +136,11 @@ a {
 
 .bio-text {
   color: #6e0e81;
-  font-weight: 600;
+  font-weight:bolder;
 }
 
 .bio-text2 {
   text-align: left;
-  letter-spacing: -0.02;
 }
 
 .bio {
@@ -277,7 +275,7 @@ a {
   line-height: 1.3em;
 }
 
-.card span {
+.card .app-title {
   font-size: 16px;
   font-weight: bold;
   color: #6e0e81;
@@ -312,6 +310,12 @@ HIGHLIGHT LINK EFFECT
   background-image: linear-gradient(to right, #6e0e81 0%, #bd4ad4 100%);
   color: white;
 }
+
+.highlight-2 {
+  background-color: #fff2ac;
+  background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+}
+
 
 /* 
 MEDIA QUERIES 
