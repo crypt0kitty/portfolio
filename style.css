@@ -495,7 +495,7 @@ p {
 
   .app-text {
     word-spacing: -0.3rem;
-    letter-spacing:-1px;
+    /* letter-spacing:-0.4px; */
     line-height: 1.4em;
   }
 
