@@ -493,6 +493,10 @@ p {
     line-height: 21px;
   }
 
+  .app-text {
+    letter-spacing:-1px;
+  }
+
   .band {
     padding-top: 50px;
     width: 100%;
