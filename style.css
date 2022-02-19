@@ -209,7 +209,15 @@ a {
   padding-bottom: 62%;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center;
+  border: 1px solid rgb(10, 6, 201);
+}
+
+.card .slack {
+  padding-bottom: 62%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   border: 1px solid rgb(10, 6, 201);
 }
 
@@ -217,10 +225,17 @@ a {
   padding-bottom: 62%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
-  border: 1px solid black;
+  background-position: center;
+  border: 1px solid blue;
 }
 
+.card .blocks {
+  padding-bottom: 62%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid blue;
+}
 
 .card .thumb-books {
   padding-bottom: 62%;
