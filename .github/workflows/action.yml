@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: crypt0kitty/porfolio@main
+      - uses: crypt0kitty/portfolio@main
      
         with:
           # Current configuration doesn't require a GitHub token
