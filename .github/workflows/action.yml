@@ -12,9 +12,10 @@ jobs:
       contents: write
     steps:
       - uses: crypt0kitty/portfolio@latest
+      - uses: crypt0kitty/portfolio@main
         with:
           # Current configuration doesn't require a GitHub token
-          token: METRICS
+          token: NOT_NEEDED
 
           # Options
           user: crypt0kitty
@@ -25,4 +26,4 @@ jobs:
           plugin_screenshot_background: yes
           plugin_screenshot_selector: body
           plugin_screenshot_title: Screenshot
-          plugin_screenshot_url: https://sandyvasquez.dev/
+          plugin_screenshot_url: https://sandyvasquez.dev/index.html
