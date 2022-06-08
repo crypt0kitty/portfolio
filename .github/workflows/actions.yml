@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: crypt0kitty/metrics@latest
+      - uses: crypt0kitty/portfolio@latest
         with:
           # Current configuration doesn't require a GitHub token
           token: METRICS
