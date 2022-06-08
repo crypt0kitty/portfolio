@@ -1,5 +1,5 @@
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
-name: Metrics
+name: Portfolio
 on:
   # Schedule updates (each hour)
   # Lines below let you run workflow manually and on each commit
@@ -11,8 +11,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: crypt0kitty/metrics@latest
-      - uses: crypt0kitty/metrics@main
+      - uses: crypt0kitty/portfolio@latest
+      - uses: crypt0kitty/portfolio@main
 
         with:
           # Your GitHub token
