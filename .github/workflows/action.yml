@@ -1,9 +1,7 @@
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
-name: test
-uses: crypt0kitty/metrics@latest
-uses: crypt0kitty/metrics@main
+name: portfolio
+uses: crypt0kitty/portfolio@latest
 with:
-  filename: metrics.plugin.screenshot.svg
   token: NOT_NEEDED
   base: ""
   plugin_screenshot: yes
