@@ -1,15 +1,6 @@
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
-name: XKCD of the day
-uses: crypt0kitty/portfolio@main
-with:
-  filename: metrics.plugin.screenshot.svg
-  token: NOT_NEEDED
-  base: ""
-  plugin_screenshot: yes
-  plugin_screenshot_title: My Portfolio
-  plugin_screenshot_url: https://sandyvasquez.dev
-          
-  plugin_screenshot_selector: "#comic img"
+- name: Metrics embed
+  uses: crypt0kitty/metrics@v3.24
 
 
 
