@@ -1,5 +1,5 @@
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
-name: Metrics
+name: portfolio
 on:
   # Schedule updates (each hour)
   # Lines below let you run workflow manually and on each commit
@@ -23,7 +23,7 @@ jobs:
           base: ""
           config_timezone: America/Los_Angeles
           plugin_screenshot: yes
-          plugin_screenshot_background: yes
+          plugin_screenshot_background: no
           plugin_screenshot_selector: body
           plugin_screenshot_title: Screenshot
           plugin_screenshot_url: https://sandyvasquez.dev
