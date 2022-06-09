@@ -209,20 +209,57 @@ a {
   padding-bottom: 62%;
   background-size: contain;
   background-repeat: no-repeat;
+<<<<<<< HEAD
   background-position: center top;
+=======
+  background-position: center;
+  border: 1px solid rgb(10, 6, 201);
+}
+
+.card .slack {
+  padding-bottom: 62%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+>>>>>>> origin/main
   border: 1px solid rgb(10, 6, 201);
 }
 
 .card .thumb-solar {
   padding-bottom: 62%;
+<<<<<<< HEAD
   background-size: contain;
   background-repeat: no-repeat;
+=======
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid blue;
+}
+
+.card .blocks {
+  padding-bottom: 62%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid blue;
+}
+
+.card .thumb-books {
+  padding-bottom: 62%;
+  background-size: cover;
+  background-repeat: no-repeat;
+>>>>>>> origin/main
   background-position: center top;
   border: 1px solid red;
 }
 
 .card .thumb-3 {
   padding-bottom: 62%;
+<<<<<<< HEAD
+=======
+  width: 100%;
+>>>>>>> origin/main
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
@@ -239,7 +276,11 @@ a {
 
 .card .thumb-2 {
   padding-bottom: 63%;
+<<<<<<< HEAD
   background-size: contain;
+=======
+  background-size: center;
+>>>>>>> origin/main
   background-repeat: no-repeat;
   background-position: center top;
   background-color: whitesmoke;
@@ -301,6 +342,7 @@ HIGHLIGHT LINK EFFECT
   -webkit-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
 }
+<<<<<<< HEAD
 
 .bio:any-link {
   color: blue;
@@ -315,7 +357,57 @@ HIGHLIGHT LINK EFFECT
   background-color: #fff2ac;
   background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
 }
+=======
+>>>>>>> origin/main
 
+.bio:any-link {
+  color: blue;
+}
+
+<<<<<<< HEAD
+/* 
+MEDIA QUERIES 
+*/
+
+@media only screen and (min-width: 1000px) {
+  .card_bio {
+    grid-template-columns: 1fr;
+    width: 70%;
+  }
+
+  .band_bio {
+    padding-top: 40px;
+  }
+
+  .band {
+    padding-top: 75px;
+  }
+  /* border theme  */
+  #top,
+  #bottom,
+  #left,
+  #right {
+    background: #6e0e81;
+    position: fixed;
+  }
+}
+
+h1 {
+  text-align: left;
+  font-family: "Roboto mono", monospace;
+  padding-top: 25px;
+}
+
+=======
+.highlight:hover {
+  background-image: linear-gradient(to right, #6e0e81 0%, #bd4ad4 100%);
+  color: white;
+}
+
+.highlight-2 {
+  background-color: #fff2ac;
+  background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+}
 
 /* 
 MEDIA QUERIES 
@@ -350,6 +442,7 @@ h1 {
   padding-top: 25px;
 }
 
+>>>>>>> origin/main
 h2 {
   font-family: "Roboto mono", monospace;
 }
