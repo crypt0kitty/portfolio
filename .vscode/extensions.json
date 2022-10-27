@@ -1,5 +1,8 @@
 {
     "recommendations": [
-        "zobo.php-intellisense"
+        "zobo.php-intellisense",
+        "formulahendry.code-runner",
+        "ms-python.python",
+        "akamud.vscode-theme-onedark"
     ]
 }

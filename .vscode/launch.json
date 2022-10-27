@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "lldb",
+            "request": "attach",
+            "name": "Attach",
+            "pid": "${command:pickMyProcess}" // use ${command:pickProcess} to pick other users' processes
+        },
+
+        {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"
