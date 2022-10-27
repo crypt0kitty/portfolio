@@ -28,7 +28,8 @@
 				"bmewburn.vscode-intelephense-client",
 				"mrmlnc.vscode-apache",
 				"formulahendry.code-runner",
-				"akamud.vscode-theme-onedark"
+				"akamud.vscode-theme-onedark",
+				"iolevel.peachpie-vscode"
 			]
 		}
 	},
