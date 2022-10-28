@@ -35,8 +35,8 @@
       "args": [],
       "stopAtEntry": true,
       "externalConsole": false,
-      "cwd": "/Users/admin/Desktop/portfolio/www_sandyvasquez.dev",
-      "program": "/Users/admin/Desktop/portfolio/www_sandyvasquez.dev/build/Debug/outDebug",
+      "cwd": "/Users/admin/Desktop/portfolio",
+      "program": "/Users/admin/Desktop/portfolio/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb"
     }
