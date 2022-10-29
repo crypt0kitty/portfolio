@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang=”en” prefix=”og: https://sandyvasquez.dev/index.html">
+
+<head>
+  <!-- for linkedin feature image -->
+  <meta name="title" property="og:title" content="Portfolio">
+  <meta name="image" property="og:image" content="https://i.ibb.co/7jzBKtN/portfolio-background.jpg">
+  <meta name="description" property="og:description" content="A sample of my coding projects">
+  <meta property='og:url' content='https://sandyvasquez.dev/index.html'/>
+  <meta name="author" content="Sandy Vasquez">
+  <meta charset="utf-8" /heroku ps -a>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sandy Vasquez: Portfolio</title>
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <!-- end -->
+  <link type="text/css" href="./style.css" rel="stylesheet" />
+  <link href="https://bit.ly/3rVAh0c" rel="stylesheet" />
+  <script src="https://bit.ly/31Sp85f"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <script src="./index.js"></script>
+  <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+  
+</head>
+<body>
+  <nav class="navbar">
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="top"></div>
+    <div id="bottom"></div>
+    <li class="nav-item">
+      <a href="./index.html">Home |</a>
+    </li>
+    <li class="nav-item">
+      <a href="./portfolio.html">Portfolio</a>
+    </li>
+    </ul>
+  </nav>
+  <div class="band_bio">
+    <div class="section">
+      <div class="content">
+        <div class="title">
+          <span class="bio-text">
+            <div id="holder" class="text tt-holder">
+              <p class="tt"><i>     </i>    <code id="hello">Hello...</code></p>
+              <p class="tt"><i>     </i>   <code id="hola">Hola...</code></p>
+              <p class="tt"><i>     </i>   <code id="bonjour">Bonjour...</code></p>
+              <p class="tt"><i>     </i>   <code id="konnichiwa">Kon'nichiwa...</code></p>
+              <h1 class="ttt"></h1>
+            </div>
+          </span>
+          <div class="title_inner">About Me</div>
+          <div class="item-2">
+            <a class="card_bio">
+              <div class="thumb-1" style="background-image: url(https://i.ibb.co/7jzBKtN/portfolio-background.jpg);">
+              </div>
+              <article>
+                <p class="bio-text-p"><span class="bio-text">Name: </span>Sandy Vasquez</p>
+                <p class="bio"><span class="bio-text">Bio: </span>I am a customer-focused IT professional with a BAS degree in <a href="https://bit.ly/3sm3Tm7" target="_blank" class="bio"><span class="highlight">Information Systems</a>.</span> And a recent <a href="https://bit.ly/3rwxyKg" target="_blank" class="bio"><span class="highlight">coding bootcamp graduate</a>. My previous background and my current experience give me the range to bridge the gap between code and IT infrastructure.<br>
+                  <p class="bio-text2"><span class="bio-text">Interests: </span>Philosophy, cryptocurrency, cybersecurity.</p>              </article>
+            </a>
+          </div>
+          <br>
+          <!-- <div class="title"> -->
+            <!-- <div class="title_inner">Experience</div> -->
+          <!-- </div> -->
+          <!-- <a href="https://docs.google.com/document/d/1ScW_RlKJ9ZKMvFCuprI_IB5XfM3DiRHk/" class="bio"><span class="highlight">View Resume</a></span> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  const vis = (function () {
+    let stateKey,
+      eventKey,
+      keys = {
+        hidden: "visibilitychange",
+        webkitHidden: "webkitvisibilitychange",
+        mozHidden: "mozvisibilitychange",
+        msHidden: "msvisibilitychange"
+      };
+    for (stateKey in keys) {
+      if (stateKey in document) {
+        eventKey = keys[stateKey];
+        break;
+      }
+    }
+    return function (c) {
+      if (c) document.addEventListener(eventKey, c);
+      return !document[stateKey];
+    }
+  })();
+  $(document).ready(function () {
+    // main visibility API function
+    let animatetext = function () {
+      let $elements = $(".tt-holder .tt");
+      $(".ttt").tickerText($elements, 8, 3, 30, 1, 0.5, 2, false, "timerpause", "timerstop");
+    }
+    $(animatetext);
+  });
+</script>
+<footer class="footer">
+  <p class="p-footer">
+    <a href="https://www.linkedin.com/in/tosandyvasquez/"><span class="iconify-inline" data-icon="logos:linkedin-icon"
+        id="iconify-inline-linkedin"></span></a>
+    <a href="https://github.com/crypt0kitty"><span class="iconify-inline" data-icon="openmoji:github"
+      data-width="22" data-height="22" id="iconify-inline-github"></span></a>
+      <a href="mailto:sandyvasquez@proton.me?subject=The%20subject%20of%20the%20mail"><span class="iconify-inline"
+        data-icon="icon-park:mail" id="iconify-inline-twitter"></span></a>
+  </p>
+  © 2022 Sandy Vasquez - powered by Heroku
+</footer>
+<html>
